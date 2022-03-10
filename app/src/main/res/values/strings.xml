@@ -2,4 +2,5 @@
 <resources>
     <string name="app_name">CHURCH MANAGEMENT SYSTEM</string>
     <string name="logout">Logout</string>
+    <string name="about_church">About Church</string>
 </resources>

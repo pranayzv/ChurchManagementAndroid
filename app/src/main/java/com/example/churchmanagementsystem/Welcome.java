@@ -68,4 +68,12 @@ public class Welcome extends AppCompatActivity {
         startActivity(new Intent(getApplicationContext(), Login_form.class));
         finish();
     }
+
+    public void viewChDetails(View view) {
+        startActivity(new Intent(getApplicationContext(), church_details.class));
+    }
+
+    public void donationActivity(View view) {
+        startActivity(new Intent(getApplicationContext(), Donation.class));
+    }
 }

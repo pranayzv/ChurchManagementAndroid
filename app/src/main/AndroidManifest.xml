@@ -6,17 +6,25 @@
 
     <application
         android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_descriptor"
         android:icon="@drawable/church"
         android:label="@string/app_name"
         android:roundIcon="@drawable/church"
         android:supportsRtl="true"
-        android:theme="@style/Theme.CHURCHMANAGEMENTSYSTEM"
-        android:fullBackupContent="@xml/backup_descriptor">
+        android:theme="@style/Theme.CHURCHMANAGEMENTSYSTEM">
+        <activity
+            android:name=".Donation"
+            android:exported="false" />
+        <activity
+            android:name=".church_details"
+            android:exported="false" />
         <activity
             android:name=".SplashScreen"
-            android:exported="true" android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -46,8 +54,7 @@
             android:exported="true" />
         <activity
             android:name=".Login_form"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true" />

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="80dp"
+        android:src="@drawable/church64px" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/church_donation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Donations"
+        android:background="@drawable/logout_button"
+        android:backgroundTint="#FFC107"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:padding="20dp"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:id="@+id/church_donation_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="amount eg: 500, 1000, .."
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:padding="20dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="19dp"
+        />
+
+    <Button
+        android:id="@+id/church_donation_bth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Donate"
+        android:background="@drawable/logout_button"
+        android:backgroundTint="#FFC107"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:padding="20dp"
+        android:textSize="25dp"/>
+
+
+</LinearLayout>
+
+</LinearLayout>

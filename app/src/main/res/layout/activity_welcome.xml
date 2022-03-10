@@ -19,8 +19,22 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="right"
+                android:layout_marginTop="10dp"
                 android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/logout_button"
+                    android:textSize="10sp"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="left"
+                    android:onClick="viewChDetails"
+                    android:text="@string/about_church"/>
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
 
                 <TextView
                     android:id="@+id/tv"
@@ -31,6 +45,7 @@
                     android:text="agdfdga"
                     android:textColor="@color/black"
                     android:textSize="15sp"
+                    android:layout_gravity="end"
                     tools:ignore="HardcodedText" />
 
                 <Button
@@ -40,6 +55,7 @@
                     android:background="@drawable/logout_button"
                     android:onClick="logout_process"
                     android:text="@string/logout"
+                    android:layout_gravity="end"
                     android:textSize="10sp" />
             </LinearLayout>
 
@@ -143,6 +159,16 @@
             </GridLayout>
 
 
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill_horizontal"
+                android:layout_margin="2dp"
+                android:onClick="donationActivity"
+                android:text="Donate"
+                android:textColor="@color/black"
+                tools:ignore="HardcodedText" />
         </LinearLayout>
     </ScrollView>
 

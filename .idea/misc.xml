@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/CHURCHMANAGEMENTSYSTEM/CHURCHMANAGEMENTSYSTEM/app/src/main/res/layout/activity_add_scripture.xml" value="0.25416666666666665" />
+        <entry key="..\:/CHURCHMANAGEMENTSYSTEM/CHURCHMANAGEMENTSYSTEM/app/src/main/res/layout/activity_kulaba.xml" value="0.23822463768115942" />
+        <entry key="..\:/CHURCHMANAGEMENTSYSTEM/CHURCHMANAGEMENTSYSTEM/app/src/main/res/layout/activity_login_form.xml" value="0.2" />
+        <entry key="..\:/CHURCHMANAGEMENTSYSTEM/CHURCHMANAGEMENTSYSTEM/app/src/main/res/layout/activity_main.xml" value="0.1933876811594203" />
+        <entry key="..\:/CHURCHMANAGEMENTSYSTEM/CHURCHMANAGEMENTSYSTEM/app/src/main/res/layout/activity_show_scripture.xml" value="0.23822463768115942" />
+        <entry key="..\:/CHURCHMANAGEMENTSYSTEM/CHURCHMANAGEMENTSYSTEM/app/src/main/res/layout/activity_showprayer.xml" value="0.23822463768115942" />
+        <entry key="..\:/CHURCHMANAGEMENTSYSTEM/CHURCHMANAGEMENTSYSTEM/app/src/main/res/layout/activity_welcome.xml" value="0.23822463768115942" />
+        <entry key="..\:/projects/opened/CHURCHMANAGEMENTSYSTEM/app/src/main/res/layout/leader_prayer.xml" value="0.1" />
+        <entry key="..\:/projects/opened/CHURCHMANAGEMENTSYSTEM/app/src/main/res/layout/member_prayer.xml" value="0.17074275362318841" />
+        <entry key="..\:/projects/opened/CHURCHMANAGEMENTSYSTEM/app/src/main/res/layout/pastor_prayer.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/button_corner.xml" value="0.21197916666666666" />
+        <entry key="app/src/main/res/drawable/edit_text.xml" value="0.10677083333333333" />
+        <entry key="app/src/main/res/drawable/ic_arrow_left.xml" value="0.21197916666666666" />
+        <entry key="app/src/main/res/drawable/logout_button.xml" value="0.21197916666666666" />
+        <entry key="app/src/main/res/drawable/main_button.xml" value="0.21197916666666666" />
+        <entry key="app/src/main/res/layout/activity_add_scripture.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_addprayer.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_colaba.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_kulaba.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_login_form.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_mukund.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_mulund.xml" value="0.1956521739130435" />
+        <entry key="app/src/main/res/layout/activity_show_scripture.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_showprayer.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.19583333333333333" />
+        <entry key="app/src/main/res/layout/activity_thane.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_welcome.xml" value="0.1" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.10677083333333333" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.10677083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

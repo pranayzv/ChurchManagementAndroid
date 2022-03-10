@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1083931473305",
+    "project_id": "churchmanagement-1d9a7",
+    "storage_bucket": "churchmanagement-1d9a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083931473305:android:0cf59beb55a2be4f8c4f08",
+        "android_client_info": {
+          "package_name": "com.example.churchmanagementsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083931473305-c22qvpd3jsflpnn4hohf28oip9fc3bce.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABU3_tCiCp9eS41kVQhHX92vxZiytGeQM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1083931473305-c22qvpd3jsflpnn4hohf28oip9fc3bce.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -41,11 +41,11 @@ public class church_details extends AppCompatActivity {
             chFounder.setText("Founder & History:\nThe History of this Church located at Mulund dates back to 1968. On the 8th of January, 1989, His Eminence, Cardinal Simon Pimenta inaugurated and consecrated the new Church Building.");
         }
         chBranch.setText("Church Branch: "+user.getBranch());
-        StringBuilder pastors = new StringBuilder("Pastors : ");
+        StringBuilder pastors = new StringBuilder("Pastors: ");
 
         db.collection("Users").whereEqualTo("churchbranch",user.getBranch()).get().addOnCompleteListener(task ->{
             int branchMembersSize = task.getResult().size();
-            chMembers.setText("Total Members In Kulaba: "+branchMembersSize);
+            chMembers.setText("Total Members: "+branchMembersSize);
             if(branchMembersSize>0){
                 for (QueryDocumentSnapshot qs : task.getResult()){
                     if(qs.get("Type").toString().equals("Pastor")){
